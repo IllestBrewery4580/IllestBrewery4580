@@ -1,0 +1,12 @@
+public class NodeType {
+    int data;
+    NodeType left;
+    NodeType right;
+
+    // Constructor for the node that initializes the data and sets left/right children to null
+    public NodeType(int value) {
+        this.data = value;
+        this.left = null;
+        this.right = null;
+    }
+}
